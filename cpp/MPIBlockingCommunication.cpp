@@ -4,10 +4,10 @@
 #include <mpi.h>
 #include <math.h>
  
-int main(argc,argv)
+int main(int argc, char *argv[])
 {
-    int argc;
-    char *argv[];
+//    int argc;
+//    char *argv[];
     int myid, numprocs;
     int tag,source,destination,count;
     int buffer;
